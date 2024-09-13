@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB20C3D82C6BCEBA00B00061 /* lesionDetector1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20C3D72C6BCEBA00B00061 /* lesionDetector1_0App.swift */; };
+		CB20C3DA2C6BCEBA00B00061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20C3D92C6BCEBA00B00061 /* ContentView.swift */; };
+		CB20C3DC2C6BCEBB00B00061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB20C3DB2C6BCEBB00B00061 /* Assets.xcassets */; };
+		CB20C3DF2C6BCEBB00B00061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB20C3DE2C6BCEBB00B00061 /* Preview Assets.xcassets */; };
+		CB20C3E92C6BCEBB00B00061 /* lesionDetector1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20C3E82C6BCEBB00B00061 /* lesionDetector1_0Tests.swift */; };
+		CB20C3F32C6BCEBB00B00061 /* lesionDetector1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20C3F22C6BCEBB00B00061 /* lesionDetector1_0UITests.swift */; };
+		CB20C3F52C6BCEBB00B00061 /* lesionDetector1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20C3F42C6BCEBB00B00061 /* lesionDetector1_0UITestsLaunchTests.swift */; };
+		CB20C4382C8BCA2900B00061 /* lesionClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CB20C4372C8BCA2900B00061 /* lesionClassifier 1.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB20C3E52C6BCEBB00B00061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB20C3CC2C6BCEBA00B00061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB20C3D32C6BCEBA00B00061;
+			remoteInfo = lesionDetector1.0;
+		};
+		CB20C3EF2C6BCEBB00B00061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB20C3CC2C6BCEBA00B00061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB20C3D32C6BCEBA00B00061;
+			remoteInfo = lesionDetector1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB20C3D42C6BCEBA00B00061 /* lesionDetector1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesionDetector1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB20C3D72C6BCEBA00B00061 /* lesionDetector1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesionDetector1_0App.swift; sourceTree = "<group>"; };
+		CB20C3D92C6BCEBA00B00061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB20C3DB2C6BCEBB00B00061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB20C3DE2C6BCEBB00B00061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB20C3E42C6BCEBB00B00061 /* lesionDetector1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesionDetector1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB20C3E82C6BCEBB00B00061 /* lesionDetector1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesionDetector1_0Tests.swift; sourceTree = "<group>"; };
+		CB20C3EE2C6BCEBB00B00061 /* lesionDetector1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesionDetector1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB20C3F22C6BCEBB00B00061 /* lesionDetector1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesionDetector1_0UITests.swift; sourceTree = "<group>"; };
+		CB20C3F42C6BCEBB00B00061 /* lesionDetector1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesionDetector1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB20C4372C8BCA2900B00061 /* lesionClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "lesionClassifier 1.mlmodel"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB20C3D12C6BCEBA00B00061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3E12C6BCEBB00B00061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3EB2C6BCEBB00B00061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB20C3CB2C6BCEBA00B00061 = {
+			isa = PBXGroup;
+			children = (
+				CB20C3D62C6BCEBA00B00061 /* lesionDetector1.0 */,
+				CB20C3E72C6BCEBB00B00061 /* lesionDetector1.0Tests */,
+				CB20C3F12C6BCEBB00B00061 /* lesionDetector1.0UITests */,
+				CB20C3D52C6BCEBA00B00061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB20C3D52C6BCEBA00B00061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB20C3D42C6BCEBA00B00061 /* lesionDetector1.0.app */,
+				CB20C3E42C6BCEBB00B00061 /* lesionDetector1.0Tests.xctest */,
+				CB20C3EE2C6BCEBB00B00061 /* lesionDetector1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB20C3D62C6BCEBA00B00061 /* lesionDetector1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CB20C3D72C6BCEBA00B00061 /* lesionDetector1_0App.swift */,
+				CB20C4372C8BCA2900B00061 /* lesionClassifier 1.mlmodel */,
+				CB20C3D92C6BCEBA00B00061 /* ContentView.swift */,
+				CB20C3DB2C6BCEBB00B00061 /* Assets.xcassets */,
+				CB20C3DD2C6BCEBB00B00061 /* Preview Content */,
+			);
+			path = lesionDetector1.0;
+			sourceTree = "<group>";
+		};
+		CB20C3DD2C6BCEBB00B00061 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB20C3DE2C6BCEBB00B00061 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB20C3E72C6BCEBB00B00061 /* lesionDetector1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB20C3E82C6BCEBB00B00061 /* lesionDetector1_0Tests.swift */,
+			);
+			path = lesionDetector1.0Tests;
+			sourceTree = "<group>";
+		};
+		CB20C3F12C6BCEBB00B00061 /* lesionDetector1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB20C3F22C6BCEBB00B00061 /* lesionDetector1_0UITests.swift */,
+				CB20C3F42C6BCEBB00B00061 /* lesionDetector1_0UITestsLaunchTests.swift */,
+			);
+			path = lesionDetector1.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB20C3D32C6BCEBA00B00061 /* lesionDetector1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB20C3F82C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0" */;
+			buildPhases = (
+				CB20C3D02C6BCEBA00B00061 /* Sources */,
+				CB20C3D12C6BCEBA00B00061 /* Frameworks */,
+				CB20C3D22C6BCEBA00B00061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lesionDetector1.0;
+			productName = lesionDetector1.0;
+			productReference = CB20C3D42C6BCEBA00B00061 /* lesionDetector1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB20C3E32C6BCEBB00B00061 /* lesionDetector1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB20C3FB2C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0Tests" */;
+			buildPhases = (
+				CB20C3E02C6BCEBB00B00061 /* Sources */,
+				CB20C3E12C6BCEBB00B00061 /* Frameworks */,
+				CB20C3E22C6BCEBB00B00061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB20C3E62C6BCEBB00B00061 /* PBXTargetDependency */,
+			);
+			name = lesionDetector1.0Tests;
+			productName = lesionDetector1.0Tests;
+			productReference = CB20C3E42C6BCEBB00B00061 /* lesionDetector1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB20C3ED2C6BCEBB00B00061 /* lesionDetector1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB20C3FE2C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0UITests" */;
+			buildPhases = (
+				CB20C3EA2C6BCEBB00B00061 /* Sources */,
+				CB20C3EB2C6BCEBB00B00061 /* Frameworks */,
+				CB20C3EC2C6BCEBB00B00061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB20C3F02C6BCEBB00B00061 /* PBXTargetDependency */,
+			);
+			name = lesionDetector1.0UITests;
+			productName = lesionDetector1.0UITests;
+			productReference = CB20C3EE2C6BCEBB00B00061 /* lesionDetector1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB20C3CC2C6BCEBA00B00061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB20C3D32C6BCEBA00B00061 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CB20C3E32C6BCEBB00B00061 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB20C3D32C6BCEBA00B00061;
+					};
+					CB20C3ED2C6BCEBB00B00061 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB20C3D32C6BCEBA00B00061;
+					};
+				};
+			};
+			buildConfigurationList = CB20C3CF2C6BCEBA00B00061 /* Build configuration list for PBXProject "lesionDetector1.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB20C3CB2C6BCEBA00B00061;
+			productRefGroup = CB20C3D52C6BCEBA00B00061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB20C3D32C6BCEBA00B00061 /* lesionDetector1.0 */,
+				CB20C3E32C6BCEBB00B00061 /* lesionDetector1.0Tests */,
+				CB20C3ED2C6BCEBB00B00061 /* lesionDetector1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB20C3D22C6BCEBA00B00061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20C3DF2C6BCEBB00B00061 /* Preview Assets.xcassets in Resources */,
+				CB20C3DC2C6BCEBB00B00061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3E22C6BCEBB00B00061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3EC2C6BCEBB00B00061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB20C3D02C6BCEBA00B00061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20C3DA2C6BCEBA00B00061 /* ContentView.swift in Sources */,
+				CB20C3D82C6BCEBA00B00061 /* lesionDetector1_0App.swift in Sources */,
+				CB20C4382C8BCA2900B00061 /* lesionClassifier 1.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3E02C6BCEBB00B00061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20C3E92C6BCEBB00B00061 /* lesionDetector1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB20C3EA2C6BCEBB00B00061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20C3F32C6BCEBB00B00061 /* lesionDetector1_0UITests.swift in Sources */,
+				CB20C3F52C6BCEBB00B00061 /* lesionDetector1_0UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB20C3E62C6BCEBB00B00061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB20C3D32C6BCEBA00B00061 /* lesionDetector1.0 */;
+			targetProxy = CB20C3E52C6BCEBB00B00061 /* PBXContainerItemProxy */;
+		};
+		CB20C3F02C6BCEBB00B00061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB20C3D32C6BCEBA00B00061 /* lesionDetector1.0 */;
+			targetProxy = CB20C3EF2C6BCEBB00B00061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB20C3F62C6BCEBB00B00061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB20C3F72C6BCEBB00B00061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB20C3F92C6BCEBB00B00061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lesionDetector1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2X5T2S8NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB20C3FA2C6BCEBB00B00061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lesionDetector1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2X5T2S8NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB20C3FC2C6BCEBB00B00061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lesionDetector1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lesionDetector1.0";
+			};
+			name = Debug;
+		};
+		CB20C3FD2C6BCEBB00B00061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lesionDetector1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lesionDetector1.0";
+			};
+			name = Release;
+		};
+		CB20C3FF2C6BCEBB00B00061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lesionDetector1.0;
+			};
+			name = Debug;
+		};
+		CB20C4002C6BCEBB00B00061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryandong.lesionDetector1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lesionDetector1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB20C3CF2C6BCEBA00B00061 /* Build configuration list for PBXProject "lesionDetector1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB20C3F62C6BCEBB00B00061 /* Debug */,
+				CB20C3F72C6BCEBB00B00061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB20C3F82C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB20C3F92C6BCEBB00B00061 /* Debug */,
+				CB20C3FA2C6BCEBB00B00061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB20C3FB2C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB20C3FC2C6BCEBB00B00061 /* Debug */,
+				CB20C3FD2C6BCEBB00B00061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB20C3FE2C6BCEBB00B00061 /* Build configuration list for PBXNativeTarget "lesionDetector1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB20C3FF2C6BCEBB00B00061 /* Debug */,
+				CB20C4002C6BCEBB00B00061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB20C3CC2C6BCEBA00B00061 /* Project object */;
+}
